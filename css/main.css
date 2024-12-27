@@ -1088,53 +1088,62 @@ header {
 	width: 100%;
 	min-height: 66px;
 	z-index: 600;
+	justify-content: center;
+	align-items: center;
 }
 header .row {
+	display: flex;
+	width: 100%;
+	justify-content: space-between; /* Distribute space between logo and burger */
+	align-items: center;
 	position: relative;
-	min-height: 66px;
 }
 header .top-bar {
-	display: block;
-	background: #000000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #00000000;
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
 	left: 90px;
 	top: 0;
 }
+
+header a{
+	align-items: center;
+	/* margin-top: -20px; */
+}
 header .logo {
-	float: left;
-	margin-left: 20px;
-	margin-right: 50px;
-	margin-top: 25px;
-	position: relative;
+	font-family: 'poppins-medium';
+	font-size: larger;
+	font-weight: bolder;
+	color:#ea3b15;
+	
 }
-header .logo a {
-	display: block;
-	margin: 0;
-	padding: 0;
-	border: none;
-	font: 0/0 a;
-	text-shadow: none;
-	color: transparent;
-	width: 92px;
-	height: 15px;
-	background: url("../images/logo.png") no-repeat center;
-	background-size: 92px 15px;
+
+header .logo span{
+	font-family: 'poppins-medium';
+	font-size: larger;
+	font-weight: bolder;
+	color:#ea3b15;
+	margin-left: 3px;
 }
+
 
 /**
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
  */
 .menu-toggle {
-	float: left;
+	/* float: left;
 	width: 40px;
 	height: 40px;
-	margin-left: 20px;
-	margin-top: 13px;
+	
+	/* margin-top: 13px; */
 	display: block;
 	position: relative;
+	margin-left: 20px;
 }
 .menu-toggle span {
 	display: block;
