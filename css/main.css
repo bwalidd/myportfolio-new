@@ -1968,6 +1968,13 @@ header .logo span{
 	text-align: left;
 	color: rgba(0, 0, 0, 0.5);
 }
+.bgrid.folio-item.last-item img {
+    max-width: 100%; /* Fit within the container */
+    max-height: 200px; /* Limit height for consistency */
+    object-fit: cover; /* Ensure proper scaling */
+    width: auto;
+    height: auto;
+}
 .popup-modal .link-box {
 	width: 100%;
 	overflow: hidden;
