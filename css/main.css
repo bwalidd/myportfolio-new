@@ -1958,6 +1958,10 @@ header .logo span{
 	line-height: 2.4rem;
 	margin-bottom: 12px;
 }
+.popup-modal .tools{
+	display: flex;
+	align-items: center;
+}
 .popup-modal .categories {
 	font-family: "poppins-bold", sans-serif;
 	font-size: 1.1rem;
@@ -1966,7 +1970,12 @@ header .logo span{
 	letter-spacing: .1rem;
 	display: block;
 	text-align: left;
-	color: rgba(0, 0, 0, 0.5);
+	width: max-content;
+	padding: 10px;
+	border-radius: 20px;
+	background-color: #ea3c15;
+	color: white;
+	margin: 0 10px 0 0;
 }
 .bgrid.folio-item.last-item img {
     max-width: 100%; /* Fit within the container */
